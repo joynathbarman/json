@@ -1,14 +1,41 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "appStatusCode": 0,
+    "payloadJson": {
+        "data": [
+            {
+                "c_br_code": "TMQ9",
+                "c_br_name": "SP PHARMA CRYSTAL TOWER",
+                "c_from_gst_no": "27AABCR1718E1ZP",
+                "c_from_state_code": "27",
+                "c_supply_type": "Intrastate",
+                "d_gdn_date": "2021-04-01",
+                "c_gdn_transaction_no": "21TMQ9N1",
+                "c_gdn_to_br_code": "S700",
+                "c_gdn_to_br_name": "RRL PHARMACY DC CHUNNABHATTI",
+                "c_to_br_gst_no": "27AABCR1718E1ZP",
+                "c_to_state_code": "27",
+                "n_gdn_taxable_amt_total": 41.29,
+                "n_igst_amt_total": 0.0,
+                "n_gdn_total": 41.29,
+                "c_gdn_reason": "MANUAL ORDER",
+                "c_ord_mst_ref_no": "0",
+                "c_grn_ref_no": null,
+                "n_seq": 1,
+                "c_nm_item_code": "350823",
+                "c_eg_item_code": "I04549",
+                "c_eg_item_name": "NASIVION 0.01% MINI DROPS",
+                "c_batch_no": "M61PT19026",
+                "d_expiry_date": "2022-07-01",
+                "n_mrp_rate": 62.55,
+                "n_rate": 41.29,
+                "n_qty": 1.0,
+                "n_gdn_det_amount": 41.29,
+                "c_hsn": "30049069",
+                "n_line_item_taxable_amt": 41.29,
+                "n_igst_per": 0.0,
+                "n_igst_amt": 0.0,
+                "c_ord_det_ref_no": "0"
+            }
+        ]
+    }
 }
